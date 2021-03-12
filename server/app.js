@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
 
-const DB = 'mongodb+srv://thapa:vinodthapa@cluster0.aipj4.mongodb.net/mernstack?retryWrites=true&w=majority';
+const DB = 'mongodb+srv://thapa:yourpassword@cluster0.aipj4.mongodb.net/mernstack?retryWrites=true&w=majority';
 
 mongoose.connect(DB, {
     useNewUrlParser: true,
